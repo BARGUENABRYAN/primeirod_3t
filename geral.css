@@ -1,1 +1,45 @@
+#calculadora {
+    background: rgb(7, 52, 92);
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+#calculadora input {
+    background: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+#sptotal {
+    background: black;
+    color: rgb(18, 87, 165);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#calculadora button {
+    background: rgb(12, 78, 148);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#calculadora button:hover {
+    background: rgb(4, 8, 39);
+    color: white;
+    cursor: pointer;
+}
+h3 {
+    color: rgb(43, 126, 168);
+}
+.calcF {
+    display: none;
+}
+#input-calcF {
+    display: none;
+}
+#input-calcF:checked + #calculadora  .calcF {
+    display: block;
+}
 
